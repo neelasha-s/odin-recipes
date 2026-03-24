@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;  
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit; 
+}
+
+body {
+    background-color:rgba(233, 201, 245, 0.99); 
+}
+
+h1, h3 {
+    font-family: "IM Fell DW Pica", sans-serif;
+}
+
+h1 {
+    width: 400px; 
+    height: 100px; 
+    border: 20px dotted rgba(172, 56, 214, 0.99); 
+    text-align: center; 
+    font-size: 50px;  
+    padding: 0 auto;    
+    margin: 0 auto; 
+}
+
+.nav { 
+    list-style: none; 
+    display: block;    
+    margin: 5px auto; 
+}
+
+.nav, .ingredients, p, ol { 
+    font-family: "Neue Haas Grotesk Display 65 Medium", sans-serif;  
+}
+
+.home-page {
+    margin: 100px; 
+    text-align: center;   
+}
+
+.recipe-link{  
+    color: rgba(172, 56, 214, 0.99);
+    background-color: white; 
+}
+
+.button {
+    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+    color: white;  
+    background-color: rgba(172, 56, 214, 0.99);
+    padding: 1em 2em; 
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(78, 4, 106, 0.99); 
+    color: white;
+}
+
+img {
+    margin: 10px; 
+    border-radius: 20px; 
+}
